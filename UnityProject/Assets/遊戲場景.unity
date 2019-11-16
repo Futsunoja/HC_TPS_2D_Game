@@ -1001,13 +1001,15 @@ GameObject:
   - component: {fileID: 1114936880}
   - component: {fileID: 1114936883}
   - component: {fileID: 1114936882}
+  - component: {fileID: 1114936884}
+  - component: {fileID: 1114936885}
   m_Layer: 0
   m_Name: "\u7DF4\u7FD2\u7269\u4EF6"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1114936880
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1045,7 +1047,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1114936879}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2b6c9e4bf1696f04aa87324645612aa8, type: 3}
   m_Name: 
@@ -1068,12 +1070,42 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1114936879}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 76149ec7dffac9d45a7a5a1317a492dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   count: 0
+--- !u!114 &1114936884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114936879}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97d8c8960555dfb489c73e7b54a5ae81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  test: 0
+  prop: 
+  hp: 58
+--- !u!114 &1114936885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114936879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18cfd267ae33155409210a877c9ced77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transformA: {fileID: 1174833361}
+  transformB: {fileID: 1437399}
+  Camera: {fileID: 1545746408}
 --- !u!1 &1174833359
 GameObject:
   m_ObjectHideFlags: 0
@@ -1610,7 +1642,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2033735626}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 475f4837af487ce4a9e68bb227455e4c, type: 3}
