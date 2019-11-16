@@ -5,6 +5,7 @@ public class LearAPI : MonoBehaviour
     public Transform transformA;
     public Transform transformB;
     public Camera Camera;
+    public AudioSource aud;
 
     private void Start()
     {
@@ -25,7 +26,9 @@ public class LearAPI : MonoBehaviour
         transformB.position = new Vector3(-2, 0, 0);
         print("物件B的座標:" + transformB.position);
 
-        print("攝影機位置:" + Camera.depth);
+        print("攝影機深度:" + Camera.depth);
+
+        aud.Stop();
     }
 
     private void Update()
