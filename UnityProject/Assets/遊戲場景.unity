@@ -236,8 +236,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jump: 100
+  angle: 10
   dead: 0
   bird: {fileID: 1437399}
+  r2d: {fileID: 1437401}
 --- !u!50 &1437401
 Rigidbody2D:
   serializedVersion: 4
