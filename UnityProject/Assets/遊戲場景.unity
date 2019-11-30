@@ -236,7 +236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5b5ed7328c0c9e42947fb5378cb013a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jump: 100
+  jump: 180
   angle: 10
   dead: 0
   bird: {fileID: 1437399}
@@ -648,7 +648,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 231643662}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 403695357}
+        m_MethodName: Quit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &231643662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -785,6 +796,7 @@ MonoBehaviour:
   pipe: {fileID: 8367992732090027984, guid: 53db29c65193b0442b8e11effe054cca, type: 3}
   goFinal: {fileID: 767521855}
   textScore: {fileID: 155040214}
+  textBest: {fileID: 414249015}
 --- !u!4 &403695358
 Transform:
   m_ObjectHideFlags: 0
@@ -1502,7 +1514,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1582494357}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 403695357}
+        m_MethodName: Replay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1582494357
 MonoBehaviour:
   m_ObjectHideFlags: 0
